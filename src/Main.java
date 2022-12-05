@@ -1,11 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-<component name="NewModuleRootManager" inherit-compiler-output="true">
-<exclude-output />
-<content url="file://$MODULE_DIR$">
-<sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-</content>
-<orderEntry type="inheritedJdk" />
-<orderEntry type="sourceFolder" forTests="false" />
-</component>
-</module>
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        int entero = 1;
+        String string = "string1";
+
+        modificaInt(entero);
+        System.out.println(entero);
+
+        modificaString(string);
+        System.out.println(string);
+
+        Clase objeto = new Clase(1, "string1");
+        objeto.modificaObjeto(-99, "string modificado");
+        System.out.println(objeto);
+
+    }
+
+    private static void modificaString(String a) {
+        a = "string2";
+    }
+
+    private static void modificaInt(int a) {
+        a = -99;
+    }
+}
