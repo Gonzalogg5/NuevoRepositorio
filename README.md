@@ -12,3 +12,5 @@ Hacemos un merge de esta rama a master.
 ![10](https://user-images.githubusercontent.com/114091394/205700206-dca54702-6648-464b-8a87-d329a8f52b27.png)
 Creamos las ramas comparando_objetos y comparando_strings y las desarrollamos.
 ![11](https://user-images.githubusercontent.com/114091394/205700878-e5c9fa8d-412f-4156-8b46-a13cad9934d5.png)
+probando equals con strings
+![12](https://user-images.githubusercontent.com/114091394/205702615-5a83066a-c012-42b9-b451-51ad264e676a.png)
